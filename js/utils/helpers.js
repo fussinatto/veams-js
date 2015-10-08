@@ -151,7 +151,7 @@ Helpers.extendMethod = function (to, from, methodName) {
  * @return {Array}
  */
 Helpers.querySelectorArray = function (el , context) {
-	if (!el) throw new Error('In order to work with querySelectorArray you need to define an element as string!');
+	if (!el) throw new Error('In order to work with querySelectorArray you need to define an element selector as string!');
 	var element = el;
 	var customContext = context || document;
 
